@@ -6,7 +6,7 @@ for i in `seq 1 1 100`
 do
    	echo "Welcome $i times..."
 
-	current_time=$(date "+%b-%d-%Y_%H.%M.%S")
+	current_time=$(date "+%d-%b-%Y_%H.%M.%S")
 	echo "Current Time : $current_time"
 	 
 	new_fileName=$file_name$current_time.h264
