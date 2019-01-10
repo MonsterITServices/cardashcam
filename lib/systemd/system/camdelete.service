@@ -3,7 +3,6 @@ Description=record dashcam
 
 [Service]
 ExecStart=/bin/bash /home/pi/CamProj/scripts/shell/delete.sh
-Restart=always
 
 [Install]
 WantedBy=multi-user.target
